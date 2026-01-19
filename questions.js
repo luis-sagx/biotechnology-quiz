@@ -498,5 +498,135 @@ const questions = [
         explanation: "Primero se identifican los puntos donde se puede controlar el riesgo (1), luego se definen los parámetros máximos/mínimos para esos puntos (2) y finalmente se establece cómo se vigilarán (3).",
         imageQuestion: "",
         imageAnswer: ""
+    },
+    {
+        question: "21. En un proceso que opera en continuo con las corrientes de entrada y de salida conteniendo glucosa, si el caudal másico de la glucosa que entra es diferente al caudal de salida, esto puede ser por qué:",
+        options: [
+            "El proceso está bien operado y el sistema no tiene fugas",
+            "En el proceso no se produce ninguna reacción química",
+            "En el proceso existe una acumulación de glucosa dentro del sistema",
+            "En el proceso, las mediciones de caudal no son erróneas"
+        ],
+        correct: 2,
+        explanation: "De acuerdo con el balance de masa (Entradas - Salidas = Acumulación), si los caudales de entrada y salida difieren en un sistema donde no hay reacción química, la diferencia se explica por la acumulación del componente dentro del sistema.",
+        imageQuestion: "",
+        imageAnswer: ""
+    },
+    {
+        question: "22. El mezclado es una operación física que hace al fluido ___ eliminando gradientes de ___ y otras propiedades.",
+        options: [
+            "Menos uniforme - velocidad y temperatura",
+            "Menos uniforme - concentración y temperatura",
+            "Más uniforme - velocidad y temperatura",
+            "Más uniforme - concentración y temperatura"
+        ],
+        correct: 3,
+        explanation: "El objetivo del mezclado es lograr la homogeneidad del sistema, convirtiéndolo en un medio más uniforme mediante la eliminación de gradientes de concentración, temperatura y otras propiedades físico-químicas.",
+        imageQuestion: "",
+        imageAnswer: ""
+    },
+    {
+        question: "23. Relacionar los siguientes instrumentos de medida con sus respectivas propiedades a medir: 1. Termocupla, 2. Viscosímetro, 3. Rotámetro, 4. Potenciómetro. (a. pH, b. Caudal, c. Temperatura, d. Viscosidad).",
+        options: [
+            "1-a, 2-b, 3-c, 4-d",
+            "1-b, 2-c, 3-d, 4-a",
+            "1-d, 2-a, 3-b, 4-c",
+            "1-c, 2-d, 3-b, 4-a"
+        ],
+        correct: 3,
+        explanation: "La termocupla mide temperatura (1-c), el viscosímetro mide viscosidad (2-d), el rotámetro mide el caudal de fluidos (3-b) y el potenciómetro se utiliza para medir el pH (4-a).",
+        imageQuestion: "",
+        imageAnswer: ""
+    },
+    {
+        question: "24. Ordenar los pasos en el desarrollo de un bioproceso a partir de una proteína recombinante: a. Selección óptima del cultivo, b. Purificación y acabado del producto, c. Escalamiento del sistema de cultivo, d. Recuperación y concentración del producto, e. Generación de líneas celulares recombinantes.",
+        options: [
+            "a, b, c, d, e",
+            "e, b, a, c, d",
+            "a, c, d, b, e",
+            "e, a, c, d, b"
+        ],
+        correct: 3,
+        explanation: "El flujo lógico comienza con la ingeniería genética (e), seguida de la selección de las mejores cepas (a), el aumento de escala o escalamiento (c), la recuperación inicial del producto (d) y finalmente la purificación y acabado (b).",
+        imageQuestion: "",
+        imageAnswer: ""
+    },
+    {
+        question: "25. ¿Cuál de los siguientes elementos pueden estar representados en un diagrama de tuberías e instrumentación?",
+        options: [
+            "a y b (Flechas y Válvulas)",
+            "b y d (Válvulas y Bombas)",
+            "c y d (Bloques y Bombas)",
+            "a y d (Flechas y Bombas)"
+        ],
+        correct: 1,
+        explanation: "Un diagrama P&ID (Tuberías e Instrumentación) representa físicamente los componentes del proceso como válvulas, bombas, tuberías e instrumentos de control, a diferencia del diagrama de bloques que es más conceptual.",
+        imageQuestion: "./images/q25a.png",
+        imageAnswer: ""
+    },
+    {
+        question: "26. En la fase de desarrollo de un bioproceso corriente arriba (upstream), no está comprendida la etapa de:",
+        options: [
+            "Preparación del inóculo",
+            "Esterilización de medio de cultivo",
+            "Operación del biorreactor",
+            "Elección de los microorganismos"
+        ],
+        correct: 2,
+        explanation: "sin explicacion",
+        imageQuestion: "",
+        imageAnswer: ""
+    },
+    {
+        question: "27. Los bioprocesos son la herramienta clave para el modelo de bioeconomía circular, ya que con sus principios se relacionan con ___, ___, ___, entre otros conceptos.",
+        options: [
+            "Generación de grandes cantidades de residuo - sostenibilidad - eficiencia",
+            "Generación de residuos - sostenibilidad - ineficiencia",
+            "Valorización de residuos - sostenibilidad - ineficiencia",
+            "Valorización de residuos - sostenibilidad - eficiencia de recursos"
+        ],
+        correct: 3,
+        explanation: "La bioeconomía circular busca transformar residuos en productos de valor (valorización), operando bajo criterios de sostenibilidad y máxima eficiencia en el uso de recursos biológicos.",
+        imageQuestion: "",
+        imageAnswer: ""
+    },
+    {
+        question: "28. Relacionar los siguientes tipos de sensores con sus respectivas propiedades a monitorear: 1. Sensor óptico de densidad celular, 2. Electrodo de pH, 3. Biosensor enzimático, 4. Inmunosensores. (a. Acidez, b. Concentracion de glucosa, c. Toxinas, d. Concentracion de Biomasa).",
+        options: [
+            "1-a, 2-b, 3-c, 4-d",
+            "1-b, 2-c, 3-d, 4-a",
+            "1-d, 2-a, 3-b, 4-c",
+            "1-c, 2-d, 3-b, 4-a"
+        ],
+        correct: 2,
+        explanation: "El sensor óptico mide biomasa (1-d), el electrodo de pH mide acidez (2-a), el biosensor enzimático suele medir sustratos como glucosa (3-b) y los inmunosensores detectan moléculas específicas como toxinas (4-c).",
+        imageQuestion: "",
+        imageAnswer: ""
+    },
+    {
+        question: "29. Ordenar las etapas de desarrollo de un proceso industrial: a. Diseño preliminar, b. Selección del producto, c. Construcción de prototipo, d. Diseño final, e. Generación de la idea.",
+        options: [
+            "a, b, c, d, e",
+            "e, b, a, c, d",
+            "a, c, d, b, e",
+            "e, a, c, d, b"
+        ],
+        correct: 1,
+        explanation: "La secuencia estándar es: nacimiento de la idea (e), selección del producto específico (b), elaboración de un diseño preliminar (a), creación de un prototipo (c) y el diseño final para producción (d).",
+        imageQuestion: "",
+        imageAnswer: ""
+    },
+    {
+        question: "30. Un bioproceso en el que se realiza compostaje de residuos orgánicos para obtener abono, tiene un impacto directo en la reducción de residuos sólidos y se alinea con las ODS:",
+        options: [
+            "a y b ",
+            "b y c ",
+            "c y d ",
+            "a y d "
+        ],
+        correct: 1,
+        explanation: "El compostaje reduce desperdicios (ODS 12: Producción y Consumo Responsable) y disminuye las emisiones de gases de efecto invernadero en vertederos (ODS 13: Acción por el Clima).",
+        imageQuestion: "./images/q30a.png",
+        imageAnswer: ""
     }
 ];
