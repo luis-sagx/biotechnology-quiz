@@ -238,5 +238,265 @@ const questions = [
         explanation: "Los alcaloides tienen por lo menos un átomo de nitrógeno, el cuál es el responsable de la alcalinidad (depende de los electrones libres del N), tienen efectos farmacológicos en animales por lo que sin eficientes para disuadir a herbívoros, por lo que se utiliza en la industria farmacéutica.",
         imageQuestion: "",
         imageAnswer: ""
+    },
+    {
+        question: "1. En un bioproceso, las operaciones ___ incluyen la preparación del medio y la inoculación, mientras que las operaciones ___ abarcan la recuperación y purificación del producto.",
+        options: [
+            "secundarias / terciarias",
+            "de control / de toma de muestra",
+            "corriente arriba / corriente abajo",
+            "de monitoreo / de análisis"
+        ],
+        correct: 2,
+        explanation: "Las operaciones 'corriente arriba' (upstream) involucran todo lo relacionado con la preparación y el cultivo celular, mientras que las operaciones 'corriente abajo' (downstream) se centran en la separación, purificación y recuperación del producto de interés.",
+        imageQuestion: "",
+        imageAnswer: "./images/upstream_downstream_flow.png"
+    },
+    {
+        question: "2. Los diagramas de flujo de proceso son herramientas esenciales que permiten ___ el flujo de materiales y energía, así como ___ la secuencia de operaciones.",
+        options: [
+            "controlar / evaluar",
+            "visualizar / analizar",
+            "calcular / definir",
+            "monitorear / optimizar"
+        ],
+        correct: 1,
+        explanation: "El propósito fundamental de estos diagramas es proporcionar una representación gráfica que permita visualizar la ruta de los materiales y analizar de manera lógica la secuencia de las etapas del proceso.",
+        imageQuestion: "",
+        imageAnswer: ""
+    },
+    {
+        question: "3. En el diseño de bioprocesos, el ___ es fundamental para evaluar la rentabilidad, mientras que los ___ son clave para asegurar la sostenibilidad ambiental.",
+        options: [
+            "tren lógico de operaciones / diagramas de flujo",
+            "balance de energía / factores externos",
+            "análisis económico / aspectos ambientales",
+            "estudio de variables / costos de producción"
+        ],
+        correct: 2,
+        explanation: "El análisis económico determina si el proyecto generará ganancias, mientras que la consideración de aspectos ambientales garantiza que el proceso sea respetuoso con el entorno y cumpla con las normativas de sostenibilidad.",
+        imageQuestion: "",
+        imageAnswer: ""
+    },
+    {
+        question: "4. El sistema HACCP se emplea para garantizar la ___ en bioprocesos mediante la identificación de ___ en las diferentes etapas del proceso.",
+        options: [
+            "eficiencia / cuello de botella",
+            "calidad / puntos críticos de control",
+            "productividad / análisis de flujo",
+            "sostenibilidad / mejoras en el control"
+        ],
+        correct: 1,
+        explanation: "HACCP es un sistema preventivo que asegura la calidad e inocuidad mediante el control de puntos críticos específicos donde podrían ocurrir fallas o contaminaciones.",
+        imageQuestion: "",
+        imageAnswer: ""
+    },
+    {
+        question: "5. Relacione los siguientes componentes de un bioproceso con su descripción correcta: a. Reactores, b. Medidores de flujo, c. Tanques de almacenamiento, d. Filtros. (1. Equipo para contener materiales, 2. Medir paso del fluido, 3. Eliminar partículas, 4. Donde se llevan a cabo las reacciones).",
+        options: [
+            "a4, b2, c1, d3",
+            "a1, b3, c4, d2",
+            "a2, b4, c1, d3",
+            "a3, b1, c2, d4"
+        ],
+        correct: 0,
+        explanation: "Los reactores son el núcleo del proceso (reacciones), los medidores de flujo controlan el caudal, los tanques almacenan insumos y los filtros se encargan de la separación física de partículas.",
+        imageQuestion: "./images/componentes_bioproceso.png",
+        imageAnswer: ""
+    },
+    {
+        question: "6. Relacione los tipos de operaciones en bioprocesos con su descripción correspondiente: ",
+        options: [
+            "a2, b1, c3, d4",
+            "a4, b2, c1, d3",
+            "a3, b2, c4, d1",
+            "a1, b3, c4, d2"
+        ],
+        correct: 0,
+        explanation: "Corriente arriba (a2) es la preparación del medio; corriente abajo (b1) es la purificación; el procesamiento final (c3) es el embalaje; y la preparación de muestras (d4) es el control de calidad previo.",
+        imageQuestion: "./images/q6a.png",
+        imageAnswer: ""
+    },
+    {
+        question: "7. Relacione los tipos de diagramas de procesos con sus aplicaciones: ",
+        options: [
+            "a2, b3, c4, d1",
+            "a3, b4, c1, d2",
+            "a4, b1, c2, d3",
+            "a1, b2, c4, d3"
+        ],
+        correct: 2,
+        explanation: "El diagrama de flujo (a4) muestra la secuencia de operaciones; el P&ID (b1) detalla tuberías/equipos; el de bloques (c2) es un resumen visual y el de flujo de materiales (d3) muestra entradas y salidas.",
+        imageQuestion: "./images/q7a.png",
+        imageAnswer: ""
+    },
+    {
+        question: "8. Relacione los tipos de control en bioprocesos con su función:",
+        options: [
+            "a1, b2, c3, d4",
+            "a2, b3, c1, d4",
+            "a3, b2, c4, d1",
+            "a1, b4, c2, d3"
+        ],
+        correct: 1,
+        explanation: "El flujo regula la cantidad de fluido; la temperatura ajusta el calor transferido; el pH mantiene el balance ácido-base y la presión estabiliza la fuerza del sistema.",
+        imageQuestion: "./images/q8a.png",
+        imageAnswer: ""
+    },
+    {
+        question: "9. En un bioproceso, los diagramas de tuberías e instrumentación (P&ID) se utilizan para:",
+        options: [
+            "Representar las etapas principales del proceso en bloques.",
+            "Describir la disposición detallada de equipos y conexiones.",
+            "Mostrar solo el flujo de materiales de entrada y salida.",
+            "Resumir el proceso en un formato simple y conciso."
+        ],
+        correct: 1,
+        explanation: "El P&ID es un esquema técnico detallado que muestra la interconexión física de equipos de proceso y la instrumentación utilizada para controlar dicho proceso.",
+        imageQuestion: "",
+        imageAnswer: "./images/ejemplo_pid.png"
+    },
+    {
+        question: "10. Los fundamentos para el diseño de bioprocesos consideran principalmente:",
+        options: [
+            "La naturaleza del sustrato y el producto deseado.",
+            "La velocidad de agitación en el biorreactor.",
+            "La cantidad de aire disponible en las áreas.",
+            "La temperatura ambiental."
+        ],
+        correct: 0,
+        explanation: "El diseño comienza siempre por entender qué materia prima se va a transformar (sustrato) y qué se desea obtener (producto), ya que esto define todas las operaciones posteriores.",
+        imageQuestion: "",
+        imageAnswer: ""
+    },
+    {
+        question: "11. ¿Qué tipo de operación se realiza corriente abajo en un bioproceso?",
+        options: [
+            "Esterilización del medio",
+            "Inoculación del microorganismo",
+            "Purificación del producto final",
+            "Preparación de la materia prima"
+        ],
+        correct: 2,
+        explanation: "La purificación es una etapa clásica de 'downstream' (corriente abajo) que ocurre después de la fermentación.",
+        imageQuestion: "",
+        imageAnswer: ""
+    },
+    {
+        question: "12. ¿Cuál de los siguientes es un factor económico clave en el diseño de bioprocesos?",
+        options: [
+            "El tipo de reactivo utilizado en cada operación",
+            "La eficiencia energética de los equipos",
+            "La duración de la calibración de cada equipo",
+            "La frecuencia de limpieza de las áreas de trabajo"
+        ],
+        correct: 1,
+        explanation: "La eficiencia energética reduce los costos operativos a largo plazo, impactando directamente en la viabilidad económica del bioproceso.",
+        imageQuestion: "",
+        imageAnswer: ""
+    },
+    {
+        question: "13. ¿Cuál de los siguientes NO es un componente clave en un sistema de control de bioprocesos?",
+        options: [
+            "Sensor de pH",
+            "Controlador de temperatura",
+            "Medidor de presión",
+            "Analizador de ADN"
+        ],
+        correct: 3,
+        explanation: "Aunque es una herramienta analítica, el analizador de ADN no forma parte de los lazos de control de proceso en tiempo real como el pH, presión o temperatura.",
+        imageQuestion: "",
+        imageAnswer: ""
+    },
+    {
+        question: "14. En el diseño de bioprocesos, ¿cuál de los siguientes NO corresponde a una operación corriente arriba?",
+        options: [
+            "Preparación del medio",
+            "Purificación de proteínas",
+            "Inoculación del cultivo",
+            "Esterilización del biorreactor"
+        ],
+        correct: 1,
+        explanation: "La purificación de proteínas es una etapa de recuperación y acabado, por lo tanto, es una operación de corriente abajo.",
+        imageQuestion: "",
+        imageAnswer: ""
+    },
+    {
+        question: "15. ¿Cuál de los siguientes diagramas es el más adecuado para mostrar la distribución de tuberías e instrumentación en un bioproceso?",
+        options: [
+            "Diagrama de bloques",
+            "Diagrama de flujo de proceso",
+            "Diagrama de flujo de materiales",
+            "Diagrama P&ID"
+        ],
+        correct: 3,
+        explanation: "El Diagrama de Tuberías e Instrumentación (P&ID) es el estándar industrial para este nivel de detalle técnico.",
+        imageQuestion: "",
+        imageAnswer: ""
+    },
+    {
+        question: "16. Indique cuál de los siguientes instrumentos NO se emplea comúnmente para monitorear variables en un bioproceso:",
+        options: [
+            "Termómetro de resistencia",
+            "Viscosímetro",
+            "Caudalímetro",
+            "Picnómetro"
+        ],
+        correct: 3,
+        explanation: "El picnómetro se usa en laboratorios para determinar densidades, pero no es un instrumento de monitoreo en línea común dentro de un sistema de control de bioprocesos.",
+        imageQuestion: "",
+        imageAnswer: ""
+    },
+    {
+        question: "17. Ordene los pasos en el diseño de un tren lógico de operaciones unitarias para un bioproceso: 1. Definir las operaciones de purificación, 2. Establecer la operación de fermentación, 3. Determinar la composición del medio de cultivo, 4. Establecer las operaciones de embalaje.",
+        options: [
+            "2, 3, 1, 4",
+            "3, 2, 1, 4",
+            "1, 3, 4, 2",
+            "4, 3, 2, 1"
+        ],
+        correct: 1,
+        explanation: "El orden lógico es: preparar el medio (3), realizar la fermentación (2), purificar el producto (1) y finalmente embalarlo (4).",
+        imageQuestion: "",
+        imageAnswer: "./images/tren_logico_operaciones.png"
+    },
+    {
+        question: "18. Organice las etapas de balance de materia en un bioproceso: 1. Determinación de entradas, 2. Identificación de productos, 3. Cálculo de pérdidas y generación de desechos, 4. Ajuste de resultados en función de la eficiencia.",
+        options: [
+            "1, 2, 4, 3",
+            "1, 4, 3, 2",
+            "1, 2, 3, 4",
+            "3, 4, 1, 2"
+        ],
+        correct: 2,
+        explanation: "La secuencia estándar de balance es definir qué entra (1), qué sale como producto (2), qué se pierde o se vuelve residuo (3) y finalmente ajustar los cálculos según la eficiencia real (4).",
+        imageQuestion: "",
+        imageAnswer: ""
+    },
+    {
+        question: "19. Ordene los pasos para la calibración de un sensor en un bioproceso: 1. Verificación de estabilidad del sensor, 2. Ajuste de señal de salida, 3. Comparación con valores estándar, 4. Registro de datos y ajuste final.",
+        options: [
+            "3, 1, 2, 4",
+            "1, 2, 3, 4",
+            "4, 1, 3, 2",
+            "2, 4, 3, 1"
+        ],
+        correct: 0,
+        explanation: "Se comienza comparando con un estándar (3), se verifica que la lectura sea estable (1), se ajusta la señal de salida (2) y se termina con el registro de datos (4).",
+        imageQuestion: "",
+        imageAnswer: ""
+    },
+    {
+        question: "20. Organice las etapas en la aplicación de un plan HACCP para bioprocesos: 1. Identificación de puntos críticos de control, 2. Establecimiento de límites críticos, 3. Implementación de medidas de monitoreo, 4. Documentación de registros de control.",
+        options: [
+            "1, 2, 3, 4",
+            "4, 3, 2, 1",
+            "3, 4, 1, 2",
+            "2, 1, 4, 3"
+        ],
+        correct: 0,
+        explanation: "Primero se identifican los puntos donde se puede controlar el riesgo (1), luego se definen los parámetros máximos/mínimos para esos puntos (2) y finalmente se establece cómo se vigilarán (3).",
+        imageQuestion: "",
+        imageAnswer: ""
     }
 ];
