@@ -140,11 +140,17 @@ function restartGame() {
 }
 
 // Iniciar el juego cuando el DOM esté listo
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
+    console.log('DOM loaded');
+    console.log('Questions type:', typeof questions);
+    console.log('Questions length:', typeof questions !== 'undefined' ? questions.length : 'undefined');
+
     if (typeof questions !== 'undefined' && questions.length > 0) {
+        console.log('Iniciando juego con', questions.length, 'preguntas');
         shuffleArray(questions);
         getRandomQuestion();
     } else {
-        console.error('No se pudieron cargar las preguntas');
+        console.error('No se pudieron cargar las preguntas. Questions:', typeof questions);
+        document.getElementById('question').textContent = 'Error: No se pudieron cargar las preguntas. Verifica la consola.';
     }
 });
