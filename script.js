@@ -139,6 +139,12 @@ function restartGame() {
     getRandomQuestion();
 }
 
-// Iniciar el juego
-shuffleArray(questions);
-getRandomQuestion();
+// Iniciar el juego cuando el DOM esté listo
+document.addEventListener('DOMContentLoaded', function() {
+    if (typeof questions !== 'undefined' && questions.length > 0) {
+        shuffleArray(questions);
+        getRandomQuestion();
+    } else {
+        console.error('No se pudieron cargar las preguntas');
+    }
+});
